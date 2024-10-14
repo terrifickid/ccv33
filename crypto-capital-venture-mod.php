@@ -15,7 +15,6 @@ if (!defined('ABSPATH')) {
 
 //reqs
 require plugin_dir_path(__FILE__) . 'tailwind.php';
-require plugin_dir_path(__FILE__) . 'autoupdate.php';
 
 // Example functionality: Add a custom admin notice
 function crypto_capital_venture_admin_notice() {
@@ -26,10 +25,3 @@ function crypto_capital_venture_admin_notice() {
     <?php
 }
 add_action('admin_notices', 'crypto_capital_venture_admin_notice');
-
-// Example functionality: Enqueue a custom script (can be extended with actual scripts)
-function crypto_capital_venture_enqueue_scripts() {
-    wp_enqueue_script('crypto-capital-venture-script', plugins_url('/js/custom-script.js', __FILE__), array('jquery'), '1.0', true);
-}
-add_action('wp_enqueue_scripts', 'crypto_capital_venture_enqueue_scripts');
-?>
