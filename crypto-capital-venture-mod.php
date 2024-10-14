@@ -15,6 +15,7 @@ if (!defined('ABSPATH')) {
 
 //reqs
 require plugin_dir_path(__FILE__) . 'tailwind.php';
+require plugin_dir_path(__FILE__) . '/elementor/members-menu.php';
 
 // Example functionality: Add a custom admin notice
 function crypto_capital_venture_admin_notice() {
