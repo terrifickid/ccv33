@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
 }
 
 //tailwind
-require plugin_dir_path(__FILE__) . 'tailwind-cdn.php';
+require plugin_dir_path(__FILE__) . 'tailwind.php';
 
 // Example functionality: Add a custom admin notice
 function crypto_capital_venture_admin_notice() {
