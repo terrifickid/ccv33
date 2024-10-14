@@ -13,14 +13,15 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-//tailwind
+//reqs
 require plugin_dir_path(__FILE__) . 'tailwind.php';
+require plugin_dir_path(__FILE__) . 'autoupdate.php';
 
 // Example functionality: Add a custom admin notice
 function crypto_capital_venture_admin_notice() {
     ?>
     <div class="notice notice-success is-dismissible">
-        <p><?php _e('Crypto Capital Venture Wordpress MOD by msplint is active!', 'crypto-capital-venture'); ?></p>
+        <p><?php _e('Crypto Capital Venture Wordpress MOD by msplint is mactive!', 'crypto-capital-venture'); ?></p>
     </div>
     <?php
 }
