@@ -13,6 +13,9 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
+//tailwind
+require plugin_dir_path(__FILE__) . 'tailwind-cdn.php';
+
 // Example functionality: Add a custom admin notice
 function crypto_capital_venture_admin_notice() {
     ?>
@@ -28,5 +31,4 @@ function crypto_capital_venture_enqueue_scripts() {
     wp_enqueue_script('crypto-capital-venture-script', plugins_url('/js/custom-script.js', __FILE__), array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'crypto_capital_venture_enqueue_scripts');
-
 ?>
