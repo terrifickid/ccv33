@@ -2,6 +2,7 @@
 /*
 Plugin Name: Crypto Capital Venture Wordpress MOD
 Description: A MOD script for CCV site by msplint.
+Plugin URI: https://github.com/terrifickid/crypto-capital-venture-mod
 Version: 1.0
 Author: msplint
 Author URI: https://www.terrifickid.net
